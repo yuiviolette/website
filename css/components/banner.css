@@ -1,0 +1,17 @@
+.banner {
+    background-image:
+        linear-gradient(-180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+        url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 20px;
+    padding-left: 120px; /* Added padding to account for the logo */
+    color: #5F4894;
+}
+
+h1, h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+}

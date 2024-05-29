@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColourLab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner {
+            background-image:
+                linear-gradient(-180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+                url("banner.jpeg");
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 150px 20px;
+            color: #B5FFED; /* Sky blue */
+        }
+
+        h1, h2 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3em;
+            letter-spacing: 0.1em;
+        }
+
+        p, .about-text {
+            margin: 20px auto;
+            font-size: 1.5em;
+            max-width: 600px;
+            text-align: center;
+            letter-spacing: 0.05em;
+        }
+
+        .join-button {
+            font-size: 1em;
+            padding: 10px 20px;
+            background-color: #D2984F;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .join-button:hover {
+            background-color: #8CC4C4;
+        }
+
+        .about-section, .beaches-section {
+            padding: 70px 20px; /* Increased padding */
+            background: #DFD5BA; /* Cream beige */
+            margin: 40px 0;
+        }
+
+        .divider {
+            height: 2px;
+            background-color: #8CC4C4; /* Blue-green */
+            margin: 20px 0;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .card {
+            width: 45%;
+            margin: 10px;
+            padding: 20px;
+            background: #8CC4C4; /* Gray-blue */
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>🎨 Discover your colours 🎨</h1>
+        <p>Wondering what is ‘your colour’? We are the right ones to visit!</p>
+        <button class="join-button">Discover more</button>
+    </div>
+    <img src="images/ourocean.jpeg" alt="Our Ocean Logo" class="logo">
+    <div class="divider"></div>
+    <div class="about-section">
+        <h2>📖 About Us</h2>
+        <p class="about-text">
+            Do you ever get the feeling when a colour cheers you up, brighten up a day or make you feel great? May be that’s the power of ‘your colour’! Come join us at our laboratory to discover yours!
+        </p>
+    </div>
+    <div class="divider"></div>
+    <div class="beaches-section">
+        <h2>🥼 Our Laboratories</h2>
+        <section class="cards">
+            <div class="card">Lab 1 Info</div>
+            <div class="card">Lab 2 Info</div>
+            <div class="card">Lab 3 Info</div>
+            <div class="card">Lab 4 Info</div>
+        </section>
+    </div>
+</body>
+</html>

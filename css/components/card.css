@@ -1,0 +1,15 @@
+.card {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background: #8CC4C4; /* Gray-blue */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
